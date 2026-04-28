@@ -6,7 +6,8 @@ func Transformer(s string) string {
 	content = Capitalize(content)
 	content = Punctuate(content)
 	content = SingleQuote(content)
-	//content = Vowel(content)
+	content = IsVowel(content)
+	content = LOW(content)
 
 	return content
 }
