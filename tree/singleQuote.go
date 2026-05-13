@@ -17,3 +17,4 @@ func Punctuate(s string) string {
 	s = puncWord.ReplaceAllString(s, `$1 `)
 	return s
 }
+
